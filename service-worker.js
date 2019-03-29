@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mel2121/influencerGameForReactJS/precache-manifest.03ae2fcb794706f87d1fc33fe181bf26.js"
+  "/mel2121/influencerGame/precache-manifest.c8adf2ce0a64fbd36e13bdaef2b2e885.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/mel2121/influencerGameForReactJS/index.html", {
+workbox.routing.registerNavigationRoute("/mel2121/influencerGame/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
